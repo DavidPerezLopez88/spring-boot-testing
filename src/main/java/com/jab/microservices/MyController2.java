@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequiredArgsConstructor
 public class MyController2 {
 
-	private final MyService service;
+	private MyService service;
 
 	@RequestMapping("/greeting")
 	public @ResponseBody String greeting() {
